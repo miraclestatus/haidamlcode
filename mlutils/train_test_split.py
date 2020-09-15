@@ -13,5 +13,5 @@ def train_test_split(X, y,test_radio=0.2, seed=None):
 
     X_test = X[test_indexs]
     y_test = y[test_indexs]
-    return X_train,  y_train, X_test, y_test
+    return X_train, X_test, y_train, y_test
 
